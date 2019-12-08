@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="This is an example of a meta description." >
+    <meta name=viewport content="width=device-width, initial-scale=1" >
+    <title></title>
+    <link rel="stylesheet" href="resetstyle.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <p>Play my new RPG game!</p>
+        <h2>Choose your character!</h2>
+    </div>
+
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="./img/avatar-player/warrior.png" alt="warrior"/> 
+            <div>
+                <h3>Warrior</h3>
+                <p>Grrr, warrior</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Rogue')">
+            <img src="./img/avatar-player/rogue.png" alt="rogue"/> 
+            <div>
+                <h3>Rogue</h3>
+                <p>Grrr, rogue</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="./img/avatar-player/mage.png" alt="mage"/> 
+            <div>
+                <h3>Mage</h3>
+                <p>Grrr, mage</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Hunter')">
+            <img src="./img/avatar-player/hunter.png" alt="hunter"/> 
+            <div>
+                <h3>Hunter</h3>
+                <p>Grrr, hunter</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="actions">
+        
+    </div>
+
+    <div class="arena">
+        
+    </div>
+
+    <div class="enemy">
+        
+    </div>
+    
+</body>
+
+</html>
